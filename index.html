@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patiala Electrician Service | Home Electrical Repair</title>
+  <meta name="description" content="Book an electrician in Patiala for fan, light, switch, socket, MCB, wiring and other electrical repair services.">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"LocalBusiness",
+    "name":"Patiala Electrician Service",
+    "telephone":["+91-9914076203","+91-8872899634"],
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Sular Chowk, Near Guru Nanak Foundation School",
+      "addressLocality":"Patiala",
+      "addressRegion":"Punjab",
+      "postalCode":"147001",
+      "addressCountry":"IN"
+    },
+    "areaServed":"Patiala"
+  }
+  </script>
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">⚡ Patiala Electrician</div>
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#booking">Book</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div>
+    <p class="eyebrow">PATIALA • HOME ELECTRICAL SERVICE</p>
+    <h1>Electrician at Your Home</h1>
+    <p>Choose your electrical problem, see the price, and send a service request from home.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#services">View Services</a>
+      <a class="btn secondary" href="tel:+919914076203">📞 Call Now</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <div class="bolt">⚡</div>
+    <h3>Booking Charge</h3>
+    <strong>₹200</strong>
+    <p>Service/booking charge shown before submission.</p>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="section-head">
+    <p class="eyebrow">SERVICES & PRICES</p>
+    <h2>Select an electrical service</h2>
+    <p>Prices are starting/estimated prices. Final cost can vary after inspection.</p>
+  </div>
+  <div id="serviceGrid" class="grid"></div>
+</section>
+
+<section id="booking" class="section booking-section">
+  <div class="section-head">
+    <p class="eyebrow">BOOK ELECTRICIAN</p>
+    <h2>Send your service request</h2>
+  </div>
+  <form id="bookingForm" class="form-card">
+    <div class="form-grid">
+      <label>Full Name<input id="name" required placeholder="Your name"></label>
+      <label>Mobile Number<input id="phone" required inputmode="tel" placeholder="10-digit mobile number"></label>
+      <label class="wide">Complete Address<input id="address" required placeholder="House/Street/Area"></label>
+      <label>City<input id="city" value="Patiala" required></label>
+      <label>PIN Code<input id="pin" value="147001" required inputmode="numeric"></label>
+      <label>Service<select id="service" required><option value="">Choose service</option></select></label>
+      <label>Preferred Date<input id="date" type="date" required></label>
+      <label>Preferred Time<select id="time" required>
+        <option value="">Choose time</option><option>9 AM - 12 PM</option><option>12 PM - 3 PM</option><option>3 PM - 6 PM</option><option>6 PM - 9 PM</option>
+      </select></label>
+      <label class="wide">Problem Description<textarea id="problem" rows="4" placeholder="Tell us what needs repair"></textarea></label>
+    </div>
+
+    <div class="summary">
+      <div><span>Selected service</span><strong id="summaryService">—</strong></div>
+      <div><span>Service price</span><strong id="summaryPrice">₹0</strong></div>
+      <div><span>Booking charge</span><strong>₹200</strong></div>
+      <div class="total"><span>Estimated total</span><strong id="summaryTotal">₹200</strong></div>
+    </div>
+
+    <button class="btn primary full" type="submit">Book Electrician</button>
+    <p class="small">Payment gateway is not connected in this demo. A real payment gateway can be added before launch.</p>
+  </form>
+  <div id="confirmation" class="confirmation hidden"></div>
+</section>
+
+<section class="section info-grid">
+  <div class="info-card">
+    <h3>📞 Call</h3>
+    <p><a href="tel:+919914076203">9914076203</a><br><a href="tel:+918872899634">8872899634</a></p>
+  </div>
+  <div class="info-card">
+    <h3>📍 Address</h3>
+    <p>Sular Chowk, Near Guru Nanak Foundation School, Patiala, Punjab - 147001</p>
+  </div>
+  <div class="info-card">
+    <h3>💬 WhatsApp</h3>
+    <p>Send your electrical problem directly.</p>
+    <a class="btn secondary" target="_blank" rel="noopener" href="https://wa.me/919914076203">WhatsApp</a>
+  </div>
+</section>
+
+<section id="contact" class="section faq">
+  <div class="section-head"><p class="eyebrow">FAQ</p><h2>Frequently asked questions</h2></div>
+  <details><summary>Is ₹200 the complete repair price?</summary><p>₹200 is the booking/service charge configured for this website. The service price shown is an estimate and may change after inspection.</p></details>
+  <details><summary>Where is the service available?</summary><p>The website is set up for Patiala, Punjab. You can change the service area later.</p></details>
+  <details><summary>Can prices be changed?</summary><p>Yes. Service prices are stored in one JavaScript list so they can be edited easily.</p></details>
+</section>
+</main>
+
+<footer>
+  <strong>⚡ Patiala Electrician Service</strong>
+  <p>Sular Chowk, Near Guru Nanak Foundation School, Patiala, Punjab - 147001</p>
+  <p>9914076203 • 8872899634</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
